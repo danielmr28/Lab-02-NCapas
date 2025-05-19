@@ -1,4 +1,4 @@
-package com.dog.unistay.entities;
+package com.dog.entities;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;

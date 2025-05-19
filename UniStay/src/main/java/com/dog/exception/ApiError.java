@@ -1,4 +1,4 @@
-package com.dog.unistay.exception;
+package com.dog.exception;
 
 import lombok.Builder;
 import lombok.Data;

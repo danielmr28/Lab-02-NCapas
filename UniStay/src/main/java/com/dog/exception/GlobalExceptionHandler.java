@@ -1,4 +1,4 @@
-package com.dog.unistay.exception;
+package com.dog.exception;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

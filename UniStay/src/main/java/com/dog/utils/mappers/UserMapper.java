@@ -1,9 +1,9 @@
-package com.dog.unistay.utils.mappers;
+package com.dog.utils.mappers;
 
-import com.dog.unistay.dto.request.UserRequest;
-import com.dog.unistay.dto.request.UserUpdateRequest;
-import com.dog.unistay.dto.response.UserResponse;
-import com.dog.unistay.entities.User;
+import com.dog.dto.request.UserRequest;
+import com.dog.dto.request.UserUpdateRequest;
+import com.dog.dto.response.UserResponse;
+import com.dog.entities.User;
 
 import java.util.List;
 

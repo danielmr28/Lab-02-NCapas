@@ -1,4 +1,4 @@
-package com.dog.unistay.dto.request;
+package com.dog.dto.request;
 
 import lombok.Builder;
 import lombok.Data;

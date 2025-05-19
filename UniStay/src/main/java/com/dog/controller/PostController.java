@@ -1,8 +1,8 @@
-package com.dog.unistay.controller;
+package com.dog.controller;
 
-import com.dog.unistay.dto.response.PostResponse;
-import com.dog.unistay.exception.PostNotFoundException;
-import com.dog.unistay.service.PostService;
+import com.dog.dto.response.PostResponse;
+import com.dog.exception.PostNotFoundException;
+import com.dog.service.PostService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;

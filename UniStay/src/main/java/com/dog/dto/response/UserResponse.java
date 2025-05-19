@@ -1,6 +1,6 @@
-package com.dog.unistay.dto.response;
+package com.dog.dto.response;
 
-import com.dog.unistay.entities.Role;
+import com.dog.entities.Role;
 import lombok.Builder;
 import lombok.Data;
 

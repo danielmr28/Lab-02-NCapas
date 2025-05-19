@@ -1,4 +1,4 @@
-package com.dog.unistay.exception;
+package com.dog.exception;
 
 public class PostNotFoundException extends RuntimeException {
     public PostNotFoundException(String message) {

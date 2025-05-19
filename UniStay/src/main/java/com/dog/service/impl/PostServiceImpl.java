@@ -1,9 +1,9 @@
-package com.dog.unistay.service.impl;
+package com.dog.service.impl;
 
-import com.dog.unistay.dto.response.PostResponse;
-import com.dog.unistay.repository.PostRepository;
-import com.dog.unistay.service.PostService;
-import com.dog.unistay.utils.mappers.PostMapper;
+import com.dog.dto.response.PostResponse;
+import com.dog.repository.PostRepository;
+import com.dog.service.PostService;
+import com.dog.utils.mappers.PostMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

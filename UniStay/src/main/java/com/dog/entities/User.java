@@ -1,6 +1,4 @@
-package com.dog.unistay.entities;
-
-import com.fasterxml.jackson.annotation.JsonIgnore;
+package com.dog.entities;
 import jakarta.persistence.*;
 import lombok.*;
 

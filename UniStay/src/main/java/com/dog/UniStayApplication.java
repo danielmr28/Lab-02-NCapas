@@ -1,4 +1,4 @@
-package com.dog.unistay;
+package com.dog;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

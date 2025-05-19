@@ -1,8 +1,8 @@
-package com.dog.unistay.utils.mappers;
+package com.dog.utils.mappers;
 
 
-import com.dog.unistay.dto.response.PostResponse;
-import com.dog.unistay.entities.Post;
+import com.dog.dto.response.PostResponse;
+import com.dog.entities.Post;
 import java.util.List;
 
 public class PostMapper {

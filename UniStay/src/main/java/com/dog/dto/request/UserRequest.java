@@ -1,4 +1,4 @@
-package com.dog.unistay.dto.request;
+package com.dog.dto.request;
 
 import jakarta.validation.constraints.Email;
 import jakarta.validation.constraints.NotNull;

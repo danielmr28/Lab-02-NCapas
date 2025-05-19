@@ -1,6 +1,6 @@
-package com.dog.unistay.repository;
+package com.dog.repository;
 
-import com.dog.unistay.entities.Room;
+import com.dog.entities.Room;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

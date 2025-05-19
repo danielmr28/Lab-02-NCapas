@@ -1,8 +1,8 @@
-package com.dog.unistay.service;
+package com.dog.service;
 
-import com.dog.unistay.dto.request.UserRequest;
-import com.dog.unistay.dto.request.UserUpdateRequest;
-import com.dog.unistay.dto.response.UserResponse;
+import com.dog.dto.request.UserRequest;
+import com.dog.dto.request.UserUpdateRequest;
+import com.dog.dto.response.UserResponse;
 
 import java.util.List;
 

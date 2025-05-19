@@ -1,10 +1,10 @@
-package com.dog.unistay.controller;
+package com.dog.controller;
 
-import com.dog.unistay.dto.request.UserRequest;
-import com.dog.unistay.dto.request.UserUpdateRequest;
-import com.dog.unistay.dto.response.UserResponse;
-import com.dog.unistay.exception.UserNotFoundException;
-import com.dog.unistay.service.UserService;
+import com.dog.dto.request.UserRequest;
+import com.dog.dto.request.UserUpdateRequest;
+import com.dog.dto.response.UserResponse;
+import com.dog.exception.UserNotFoundException;
+import com.dog.service.UserService;
 import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;

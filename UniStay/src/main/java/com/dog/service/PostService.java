@@ -1,7 +1,6 @@
-package com.dog.unistay.service;
+package com.dog.service;
 
-import com.dog.unistay.dto.response.PostResponse;
-import com.dog.unistay.entities.Post;
+import com.dog.dto.response.PostResponse;
 
 import java.util.List;
 

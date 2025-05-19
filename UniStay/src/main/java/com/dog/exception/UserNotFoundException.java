@@ -1,4 +1,4 @@
-package com.dog.unistay.exception;
+package com.dog.exception;
 
 public class UserNotFoundException extends RuntimeException {
     public UserNotFoundException(String message) {
