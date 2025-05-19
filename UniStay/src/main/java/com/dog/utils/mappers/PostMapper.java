@@ -14,6 +14,8 @@ public class PostMapper {
                 .price(postResponse.getPrice())
                 .image(postResponse.getImage())
                 .status(postResponse.getStatus())
+                .user(UserMapper.toEntity(postResponse.getUser()))
+                .room(RoomMapper.toEntity(postResponse.getRoom()))
                 .build();
     }
 
@@ -24,6 +26,8 @@ public class PostMapper {
                 .price(post.getPrice())
                 .image(post.getImage())
                 .status(post.getStatus())
+                .user(UserMapper.toDTO(post.getUser()))
+                .room(RoomMapper.toDTO(post.getRoom()))
                 .build();
     }
 
