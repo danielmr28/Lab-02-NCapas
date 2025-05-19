@@ -16,7 +16,7 @@ public class UserMapper {
                 .name(userResponse.getFirstName())
                 .lastName(userResponse.getLastName())
                 .email(userResponse.getEmail())
-                .role(userResponse.getRole())
+                .role(RoleMapper.toEntity(userResponse.getRole()))
                 .build();
     }
 
@@ -46,7 +46,7 @@ public class UserMapper {
                 .firstName(user.getName())
                 .lastName(user.getLastName())
                 .email(user.getEmail())
-                .role(user.getRole())
+                .role(RoleMapper.toDTO(user.getRole()))
                 .build();
     }
 
